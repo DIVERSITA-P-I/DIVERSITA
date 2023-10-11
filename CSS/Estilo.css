@@ -1,0 +1,65 @@
+* {
+  font-family: "Segoe UI";
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+input {
+  font-size: inherit;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid blueviolet;
+  outline: none;
+}
+
+.correo {
+  position: relative;
+}
+
+.correo:before {
+  content: "Usuario";
+  position: absolute;
+  padding: 0 4px;
+  top: -10px;
+  left: 50px;
+  padding: 0 4px;
+  color: blueviolet;
+  background-color: white;
+}
+
+.contraseña {
+  position: relative;
+  top: 20px;
+}
+
+.contraseña:before {
+  content: "Contraseña";
+  position: absolute;
+  top: -10px;
+  left: 50px;
+  padding: 0 4px;
+  color: blueviolet;
+  background-color: white;
+}
+#boton {
+  font-size: 16px;
+  background-color: blueviolet;
+  color: aliceblue;
+  position: relative;
+  top: 30px;
+  border-radius: 10px;
+  border: 2px solid blueviolet;
+}
